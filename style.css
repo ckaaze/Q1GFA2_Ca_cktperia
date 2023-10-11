@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,700&family=Playfair+Display:ital,wght@1,800&family=Poppins&family=Rubik:wght@700&display=swap');
+*{
+    padding: 0vw;
+    margin: 0vw;
+}
+body{
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+}
+.navibar{
+    border: 0.25vh solid black;
+    background-color: #8D021F;
+    height: 4vh;
+    padding: 1vw;
+}
+.productname{
+    float: left;
+    display: inline;
+    background-color: #8D021F;
+    color: white;
+    font-size: 2.5vh;
+    font-weight: bold;
+    margin-left: 1vw;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', serif;
+}
+.linksgroup1 div{
+    background-color: #8D021F;
+    margin-top: 0.25vh;
+}
+#home, #gallery{
+    padding: 0.25vw;
+    border: 0.25vh solid #8D021F;
+    background-color: #8D021F;
+    transition: .4s;
+    font-size: 1.25vw;
+}
+#home:hover, #gallery:hover, #source:hover, #about:hover{
+    padding: .25vw;
+    font-size: 3vw;
+    transition: .4s;
+    background-color: white;
+    color: black;
+}
+.link1{
+    display: inline;
+    float: right;
+    text-transform: uppercase;
+    margin-right: 1vw;
+}
+.link1 a{
+    color: white;
+    text-decoration: none;
+    background-color: #8D021F;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.menubar{
+    margin: 2vh 3.5vw;
+    padding: 0vh;
+    width: 95vw;
+    background-color: yellow;
+}
+.linksgroup2{
+    float: left;
+    border: 0.25vh solid black;
+    background-color: #8D021F;
+    padding: 1vw;
+    width: 5vw;
+    text-align: center;
+    height: auto;
+    color: white;
+}
+.linksgroup2 div, .linksgroup2 span{
+    background-color: #8D021F;
+}
+.linksgroup2 span {
+    display: block;
+    font-weight: 900;
+    font-size: 1.8vw;
+}
+.linksgroup2 div{
+    padding: 0.75vw;
+}
+.links2{
+    display: block;
+    font-weight: 1em;
+}
+#prod1:hover, #prod2:hover, #prod3:hover, #prod4:hover, #prod5:hover, #prod6:hover{
+    opacity: 1;
+    font-weight: bolder;
+    padding: .4vw;
+    transition: .4s;
+}
+#content{
+    float: left;
+    border: 0.25vh solid black;
+    margin: 0vw 1vw;
+    width: 55vw;
+    height: auto;
+    background-color: #8D021F;
+    overflow: auto;
+}
+#content h1 {
+    text-align: center;
+    margin: 2vw 2vw 0vw 2vw;
+    background-color: #8D021F;
+    font-family: 'Rubik', sans-serif;
+    font-size: 5vw;
+    color: white;
+}
+#content h3 {
+    text-align: center;
+    margin: 0vw 2vw 2vw 2vw;
+    background-color: #8D021F;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.25vw;
+    color: white;
+}
+.op img{
+    width: 20vw;
+    padding: 0.5vh;
+    background-color: #8D021F;
+}
+.op{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#content p{
+    top: 1vw;
+    margin: 2.5vw;
+    background-color: #8D021F;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.15vw;
+    text-align: justify;
+    color: white;
+}
+#menuimage{
+    float: left;
+    border: 1vh double black;
+    background-color: #8D021F;
+    width: 25vw;
+    height: auto;
+}
+#menuimage div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#menuimage img {
+    padding-top: 2vw;
+    background-color: #8D021F;
+    max-width: 95%;
+    max-height: 100%;
+    object-fit: center;
+}
+#caption {
+    text-align: center;
+    margin: 1vw;
+    background-color: #8D021F;
+    font-size: 1.0vw;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
